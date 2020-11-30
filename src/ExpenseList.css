@@ -1,0 +1,20 @@
+.expenses-list {
+  text-align: center;
+}
+
+.expenses-list p[title='expenses-list__title'],
+.expenses-list li p:first-child {
+  font-weight: bold;
+}
+
+.expenses-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expenses-list li {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid wheat;
+  border-radius: 4px;
+}
